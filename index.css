@@ -1,0 +1,62 @@
+:root {
+  --violet: #7e74f1;
+}
+
+* {
+  font-family: "Inter", sans-serif;
+  color: black;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: 0.4px;
+  line-height: 2rem;
+}
+
+a {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.nav-item {
+  margin-right: 2rem !important;
+}
+
+.nav-item .nav-link {
+  color: black !important;
+  font-size: 1.1rem;
+}
+
+.title {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 600;
+}
+
+.violet--text {
+  color: var(--violet);
+}
+
+.social-icon {
+  font-size: 1.2rem;
+}
+
+.profile-section {
+  position: relative;
+  height: 20rem;
+  width: 20rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.img-profile {
+  height: 20rem;
+  border-radius: 16px;
+  position: absolute;
+}
+
+#bg-profile {
+  background-color: var(--violet);
+  height: 20rem;
+  width: 20rem;
+  transform: rotate(-10deg);
+}
