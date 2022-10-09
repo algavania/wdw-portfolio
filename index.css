@@ -19,6 +19,7 @@ nav {
   box-sizing: border-box;
   letter-spacing: 0.4px;
   line-height: 2rem;
+  transition: all 500ms;
 }
 
 a {
@@ -126,4 +127,91 @@ ol li {
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.flex-display {
+  display: flex;
+}
+
+footer p {
+  margin-bottom: 0!important;
+}
+
+footer {
+  align-items: center;
+  padding: 2rem 8rem;
+  width: 100%;
+  color: white;
+  background-color: var(--violet);
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: var(--pale-blue);
+}
+
+footer .footer-content {
+  flex: 3;
+  justify-content: space-between;
+}
+
+footer #footer-copyright {
+  flex: 1;
+  text-align: right;
+}
+
+footer .logo {
+  align-items: center;
+}
+
+footer .logo h3 {
+  margin-left: 0.5rem;
+}
+
+footer .follow-us {
+  align-items: center;
+}
+
+footer .follow-us p {
+  margin-right: 1rem;
+}
+
+footer .follow-us a {
+  margin: 0 0.5rem;
+}
+
+footer .follow-us a i {
+  font-size: 1.35rem;
+}
+
+@media screen and (max-width: 960px) {
+  footer {
+    flex-direction: column;
+    padding: 2rem 2rem;
+  }
+  footer .footer-content {
+    width: 100%;
+    margin-bottom: 2rem;
+    justify-content: center;
+  }
+  footer #footer-copyright {
+    text-align: center;
+  }
+
+  footer .follow-us p {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  footer {
+    align-items: center;
+  }
+
+  footer .footer-content {
+    justify-content: center;
+  }
 }
