@@ -47,20 +47,20 @@
         >
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="#biodata">Home</a>
+              <a class="nav-link cursor-pointer" id="home-nav">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#jadwal">Jadwal</a>
+              <a class="nav-link cursor-pointer" id="jadwal-nav">Jadwal</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#galeri">Portfolio</a>
+              <a class="nav-link cursor-pointer" id="portfolio-nav">Portfolio</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <section class="container h-100">
+    <section class="container h-100" id="home">
       <div class="row h-100 justify-content-center align-items-center">
         <div class="col">
           <h1 class="title">Alga <span class="violet--text">Vania</span></h1>
@@ -90,22 +90,22 @@
         <div class="col">
           <div class="profile-div">
             <div id="bg-profile" class="img-profile rounded-4"></div>
-            <img src="./assets/profile.jpg" class="img-profile rounded-4" alt="Alga" />
+            <img src="./assets/profile.jpg" class="img-profile rounded-4 hover" alt="Alga" />
           </div>
         </div>
       </div>
     </section>
 
-    <section class="container">
+    <section class="container" id="jadwal">
       <div class="row gap-5">
-        <div class="col schedule-card title-card rounded-4">
+        <div class="col schedule-card title-card rounded-4 hover">
           <div class="row h-100 p-4">
             <div class="schedule-title text-violet col align-self-center">
               Jadwal<br /><br />Kuliah
             </div>
           </div>
         </div>
-        <div class="col schedule-card rounded-4">
+        <div class="col schedule-card rounded-4 hover">
           <div class="position-relative h-100">
             <div class="position-absolute w-100 h-100">
               <div class="schedule-day-decoration text-center me-4">SEN</div>
@@ -120,7 +120,7 @@
             </div>
           </div>
         </div>
-        <div class="col schedule-card rounded-4">
+        <div class="col schedule-card rounded-4 hover">
           <div class="position-relative h-100">
             <div class="position-absolute w-100 h-100">
               <div class="schedule-day-decoration text-center me-4">SEL</div>
@@ -136,7 +136,7 @@
         </div>
       </div>
       <div class="row gap-5 mt-5">
-        <div class="col schedule-card rounded-4">
+        <div class="col schedule-card rounded-4 hover">
           <div class="position-relative h-100">
             <div class="position-absolute w-100 h-100">
               <div class="schedule-day-decoration text-center me-4">RAB</div>
@@ -150,7 +150,7 @@
             </div>
           </div>
         </div>
-        <div class="col schedule-card rounded-4">
+        <div class="col schedule-card rounded-4 hover">
           <div class="position-relative h-100">
             <div class="position-absolute w-100 h-100">
               <div class="schedule-day-decoration text-center me-4">KAM</div>
@@ -164,7 +164,7 @@
             </div>
           </div>
         </div>
-        <div class="col schedule-card rounded-4">
+        <div class="col schedule-card rounded-4 hover">
           <div class="position-relative h-100">
             <div class="position-absolute w-100 h-100">
               <div class="schedule-day-decoration text-center me-4">JUM</div>
@@ -180,7 +180,7 @@
         </div>
     </section>
 
-    <section class="container portfolio-section">
+    <section class="container portfolio-section" id="portfolio">
       <h1 class="schedule-title text-violet">Portfolio</h1>
       <div class="row gap-5 overflow-hidden mt-5">
         <div class="col p-0">
@@ -200,5 +200,6 @@
       integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
       crossorigin="anonymous"
     ></script>
+    <script src="./index.js"></script>
   </body>
 </html>

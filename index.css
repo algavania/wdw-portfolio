@@ -7,7 +7,7 @@ body {
 }
 
 nav {
-  position: fixed!important;
+  position: fixed !important;
   width: 100%;
 }
 
@@ -72,7 +72,7 @@ a {
 
 .schedule-card {
   padding: 1rem;
-  margin: 0!important;
+  margin: 0 !important;
   background-color: var(--violet);
   color: white;
   height: 20rem;
@@ -117,4 +117,13 @@ ol li {
 .portfolio-section {
   padding-top: 10rem;
   padding-bottom: 5rem;
+}
+
+.hover:hover {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+    rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
