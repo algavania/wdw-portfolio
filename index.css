@@ -60,7 +60,6 @@ a {
 
 .img-profile {
   height: 20rem;
-  border-radius: 16px;
   position: absolute;
 }
 
@@ -72,16 +71,11 @@ a {
 }
 
 .schedule-card {
-  border-radius: 16px;
   padding: 1rem;
   margin: 0!important;
   background-color: var(--violet);
   color: white;
   height: 20rem;
-}
-
-.title-schedule {
-  color: var(--violet);
 }
 
 .text-violet {
@@ -114,4 +108,13 @@ ol li {
   z-index: 1;
   font-weight: 900;
   font-size: 6rem;
+}
+
+.img-portfolio {
+  width: 100%;
+}
+
+.portfolio-section {
+  padding-top: 10rem;
+  padding-bottom: 5rem;
 }
