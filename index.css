@@ -1,5 +1,14 @@
 :root {
-  --violet: #7e74f1;
+  --violet: #7c4dff;
+}
+
+body {
+  height: 100vh;
+}
+
+nav {
+  position: fixed!important;
+  width: 100%;
 }
 
 * {
@@ -28,7 +37,8 @@ a {
 
 .title {
   font-family: "Plus Jakarta Sans", sans-serif;
-  font-weight: 600;
+  font-weight: 700;
+  font-size: 3rem;
 }
 
 .violet--text {
@@ -39,7 +49,7 @@ a {
   font-size: 1.2rem;
 }
 
-.profile-section {
+.profile-div {
   position: relative;
   height: 20rem;
   width: 20rem;
@@ -59,4 +69,49 @@ a {
   height: 20rem;
   width: 20rem;
   transform: rotate(-10deg);
+}
+
+.schedule-card {
+  border-radius: 16px;
+  padding: 1rem;
+  margin: 0!important;
+  background-color: var(--violet);
+  color: white;
+  height: 20rem;
+}
+
+.title-schedule {
+  color: var(--violet);
+}
+
+.text-violet {
+  color: var(--violet);
+}
+
+.title-card {
+  background-color: white;
+  border: 1px solid var(--violet);
+}
+
+.schedule-title {
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+ol li {
+  color: white;
+  font-size: 1.1rem;
+}
+
+.schedule-day-decoration {
+  color: rgba(255, 255, 255, 0.514);
+  position: absolute;
+  writing-mode: vertical-lr;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  opacity: 0.5;
+  z-index: 1;
+  font-weight: 900;
+  font-size: 6rem;
 }

@@ -16,7 +16,7 @@
       rel="stylesheet"
     />
     <link
-      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
     <link
@@ -28,7 +28,7 @@
     <title>Alga's Portfolio</title>
   </head>
   <body>
-    <nav class="navbar sticky-top navbar-expand-lg py-3 px-4">
+    <nav class="navbar sticky-top navbar-expand-lg py-3 px-4 bg-white">
       <div class="container-fluid justify-content-end">
         <button
           class="navbar-toggler"
@@ -63,8 +63,8 @@
       </div>
     </nav>
 
-    <section class="container py-5">
-      <div class="row">
+    <section class="container h-100">
+      <div class="row h-100 justify-content-center align-items-center">
         <div class="col">
           <h1 class="title">Alga <span class="violet--text">Vania</span></h1>
           <br />
@@ -91,13 +91,99 @@
           </div>
         </div>
         <div class="col">
-          <div class="profile-section">
+          <div class="profile-div">
             <div id="bg-profile" class="img-profile"></div>
             <img src="./assets/profile.jpg" class="img-profile" alt="Alga" />
           </div>
         </div>
       </div>
     </section>
+
+    <section class="container">
+      <div class="row gap-5">
+        <div class="col schedule-card title-card">
+          <div class="row h-100 p-4">
+            <div class="schedule-title text-violet col align-self-center">
+              Jadwal<br /><br />Kuliah
+            </div>
+          </div>
+        </div>
+        <div class="col schedule-card">
+          <div class="position-relative h-100">
+            <div class="position-absolute w-100 h-100">
+              <div class="schedule-day-decoration text-center me-4">SEN</div>
+              <div class="px-4 py-5">
+                <div class="text-white schedule-title">Senin</div>
+                <ol class="mt-4">
+                  <li>Agama</li>
+                  <li>Pancasila</li>
+                  <li>Praktikum Konsep Pemrograman</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col schedule-card">
+          <div class="position-relative h-100">
+            <div class="position-absolute w-100 h-100">
+              <div class="schedule-day-decoration text-center me-4">SEL</div>
+              <div class="px-4 py-5">
+                <div class="text-white schedule-title">Selasa</div>
+                <ol class="mt-4">
+                  <li>Konsep Pemrograman</li>
+                  <li>Matematika 1</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row gap-5 mt-5">
+        <div class="col schedule-card">
+          <div class="position-relative h-100">
+            <div class="position-absolute w-100 h-100">
+              <div class="schedule-day-decoration text-center me-4">RAB</div>
+              <div class="px-4 py-5">
+                <div class="text-white schedule-title">Rabu</div>
+                <ol class="mt-4">
+                  <li>Dasar Sistem Komputer</li>
+                  <li>Workshop Desain Web</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col schedule-card">
+          <div class="position-relative h-100">
+            <div class="position-absolute w-100 h-100">
+              <div class="schedule-day-decoration text-center me-4">KAM</div>
+              <div class="px-4 py-5">
+                <div class="text-white schedule-title">Kamis</div>
+                <ol class="mt-4">
+                  <li>Praktikum Konsep Pemrograman</li>
+                  <li>Keterampilan Nonteknis</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col schedule-card">
+          <div class="position-relative h-100">
+            <div class="position-absolute w-100 h-100">
+              <div class="schedule-day-decoration text-center me-4">JUM</div>
+              <div class="px-4 py-5">
+                <div class="text-white schedule-title">Jumat</div>
+                <ol class="mt-4">
+                  <li>Konsep Teknologi Informasi</li>
+                  <li>Logika dan Algoritma</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section class="p-5"></section>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
